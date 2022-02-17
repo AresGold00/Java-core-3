@@ -2,8 +2,7 @@ package HomeWork.Work1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+
 
 /*
 1. Написать метод, который меняет два элемента массива местами.(массив может быть любого ссылочного типа);
@@ -72,11 +71,7 @@ public class Work1 {
         System.out.println("Результат замены: "+Arrays.toString(arr)+"\n================================");
     }
     public static <T> void asList(T[]arr){
-//        почему нельзя использовать метод addAll с T?
-//        List<String> listOfStrings = new ArrayList<>();
-//        Collections.addAll(listOfStrings,arr);
-//        for (String str : listOfStrings)
-//            System.out.print(" " + str);
+
         ArrayList<T> alt = new ArrayList<>(Arrays.asList(arr));
         System.out.println("Задача 2 и результат преобразования : "+alt+"\n================================");
     }
