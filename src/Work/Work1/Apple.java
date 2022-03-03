@@ -1,4 +1,4 @@
-package HomeWork.Work1;
+package Work.Work1;
 
 public class Apple extends Fruit {
     @Override

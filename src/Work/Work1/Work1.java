@@ -1,4 +1,4 @@
-package HomeWork.Work1;
+package Work.Work1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

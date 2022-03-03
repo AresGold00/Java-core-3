@@ -1,4 +1,4 @@
-package HomeWork.Work1;
+package Work.Work1;
 
 public abstract class Fruit {
     abstract float getWeight();
